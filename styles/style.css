@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.product-description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 455px;
+  background-color: #1d1c1c;
+  color: #ffffff;
+}
+.product-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 318px;
+  height: 244px;
+  margin-top: 105px;
+}
+.product-column p {
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Raleway;
+}
+.product-column__image {
+  width: 81px;
+  height: 80px;
+  border-radius: 20px 0;
+  background-color: #ffae00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+i {
+  color: #ffffff;
+  font-family: "Font Awesome";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: fontawesome !important;
+}
+
+.logo {
+  width: 112px;
+  height: 36px;
+  margin-top: 120px;
+}
+.social-text {
+  height: 14px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  margin-top: 51px;
+  margin-bottom: 21px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.separator {
+  width: 230px;
+  height: 1px;
+  background-color: #ffffff;
+}
+.picture {
+  width: 1920px;
+  height: 420px;
+}
+.social-links {
+  display: flex;
+  /* margin-bottom: 88px;*/
+}
+.social-links img {
+  width: auto;
+  height: 15px;
+  margin-right: 20px;
+  margin-top: 22px;
+}
+.social-links img:last-child {
+  margin-right: 0;
+}
+
+footer {
+  max-width: 1920px;
+  height: 420px;
+  background-image: url("images/12_Col");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121116;
+  margin: 0 auto;
+  /*opacity: 0.5;*/
+}
+.copyright {
+  /* Style for "© 2014 - K" */
+  width: 250px;
+  height: 16px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-top: 85px;
+  text-align: center;
+}
+.blue-color {
+  color: #00e1ff;
+}
